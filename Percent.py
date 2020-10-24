@@ -89,7 +89,7 @@ while (playGame):
 
     percent = int(summ / iter + prs)
     ball = int(summ + prs)
-    #lp = (iter / 100 * l) * 100 #процент угадывания
+    lp = (iter / 100 * l) * 100                #процент угадывания
     pns = getResult(percent)
     trrw = int(topResultRW(ball))
     userName = retUser()
