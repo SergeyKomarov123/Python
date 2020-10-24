@@ -93,7 +93,7 @@ while (playGame):
     pns = getResult(percent)
     trrw = int(topResultRW(ball))
     userName = retUser()
-    
+
     print("*" * 60)
     print("РЕЗУЛЬТАТ:")
     print("Колличество полных совпадений:", l)
