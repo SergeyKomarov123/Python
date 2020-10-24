@@ -45,11 +45,11 @@ def topResultRW(x):                                 # функция запис�
     return m
 
 def retUser():                                         # функция возвращающая имя игрока которому принадлежит последний рекорд
-        f = open("TOP.dat", "r")
-        m = f.readline()
-        m = f.readline()
-        f.close()
-        return m
+    f = open("TOP.dat", "r")
+    m = f.readline()
+    m = f.readline()
+    f.close()
+    return m
 
 print("=" * 60)
 print("Тест на уровень интуиции")   
